@@ -108,9 +108,9 @@ def gajiMin():
 
 
 ## csv file    
-dataKaryawan('../pembelajaran/hitung_gaji_karyawan/data_karyawan.csv') # Letak folder/file
+dataKaryawan('data_karyawan.csv') # Perhatikan letak folder/file data csv
 print('')
-dataTunjangan('../pembelajaran/hitung_gaji_karyawan/data_tunjangan.csv')
+dataTunjangan('data_tunjangan.csv')
 print('')
 
 print(' ====== GAJI TOTAL SETIAP KARYAWAN ====== \n')

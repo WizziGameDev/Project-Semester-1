@@ -5,6 +5,17 @@ import os
 
 os.system('cls')
 
+# CTT
+# Gunakan w pada update, jika sebelumnya telah dibaca file csv dan menambahkannya
+# Pada sebuah list Kosong, Kemudian timpa kembali dengan Update
+
+def createCsv(createData):
+    ''' UPDATE '''
+    with open('data.csv', 'w', newline='') as csv_file:
+        write_file = csv.writer(csv_file)
+        for i in createData:
+            write_file.writerow(i)
+
 def createCsv(createData):
     ''' CREATE '''
     with open('data.csv', 'a', newline='') as csv_file:
